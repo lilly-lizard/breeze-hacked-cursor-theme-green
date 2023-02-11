@@ -6,7 +6,7 @@ all: clean build
 .PHONY: install
 install: build
 	@mkdir -p ~/.local/share/icons
-	@cp -r Breeze_Hacked_Green ~/.local/share/icons/Breeze_Hacked_Green
+	@cp -r Breeze_Hacked_Green ~/.local/share/icons
 	@echo ::: INSTALL :::
 
 .PHONY: build
