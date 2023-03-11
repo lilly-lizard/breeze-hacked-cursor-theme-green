@@ -14,6 +14,7 @@ build: Breeze_Hacked_Green
 	@echo ::: BUILD :::
 
 .PHONY: clean
+clean:
 	-@rm -rf build Breeze_Hacked_Green &>/dev/null | true
 	@echo ::: CLEAN :::
 
